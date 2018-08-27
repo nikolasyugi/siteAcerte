@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+     <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Acerte Comércio - Locação de  Tapumes e Divisórias</title>
+
+
+        <link href="lightGallery-master/dist/css/lightgallery.css" rel="stylesheet">
+        <link href="_css/lightgallery_acerte.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="_css/blueberry.css">
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+        <link rel="stylesheet" type="text/css" href="_css/interface.css">
+        <link rel="stylesheet" type="text/css" href="_css/contato_tapumes.css">
+        <link rel="stylesheet" type="text/css" href="_css/bootstrap.min1.css"/>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="lightGallery-master/dist/js/lightgallery.js"></script>
+        <script src="lightGallery-master/dist/js/lg-fullscreen.js"></script>
+        <script src="lightGallery-master/dist/js/lg-thumbnail.js"></script>
+        <script src="lightGallery-master/dist/js/lg-video.js"></script>
+        <script src="lightGallery-master/dist/js/lg-autoplay.js"></script>
+        <script src="lightGallery-master/dist/js/lg-zoom.js"></script>
+        <script src="lightGallery-master/dist/js/lg-hash.js"></script>
+        <script src="lightGallery-master/dist/js/lg-pager.js"></script>
+        <script src="lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+    </head>
+
+
+    <body>
+      <header>
+      <a href="_index.html" id="Logo"></a>
+      <nav>
+        <a href="_index.html" id="menu-icon"></a>
+        <ul>
+
+          <li><a href="_index.html">Home</a></li>
+          <li><a href="quemsomos.html">Quem somos</a></li>
+          <li> 
+            <div class="dropdown">
+               <a href="http://www.uolhost.uol.com.br/loja-virtual.html#rmcl" target="_blank">Compras</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Mantas Térmicas</a></li>
+                  <li><a href="#">Revestimentos</a></li>
+                  <li><a href="#">Forros</a></li>
+                  <li><a href="#">Fitas</a></li>
+                  <li><a href="#">Fixação</a></li>
+                  <li><a href="#">Foil</a></li>
+                </ul>
+            </div>
+          </li>
+          <li><a href="tapumes.html" class="current">Tapumes</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <div class="clear"></div>
+
+      <h2>Tapumes e Divisórias</h2>
+    <article class="tapume">
+        <h3>Faça já o seu orçamento</h3>
+        <form id="formulario" method="post" action="mailto:nikolas.yugi@gmail.com">
+
+        <fieldset id="usuario">
+          <legend id="usuario">Identificação</legend>
+              <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder=" Nome Completo"/> </p>
+              <p><label for="cmail">E-mail: </label><input type="email" name="tmail" id="cmail" size= "15" maxlength="30" placeholder=" E-mail"/> </p>
+              <p> <label for="ccidade"> Cidade: </label>
+              <select name="tcidade" id="ccidade">
+                    <option value="São Paulo" selected>São Paulo</option>
+                    <option value="Barueri">Barueri</option>
+                    <option value="Carapicuíba">Carapicuíba</option>
+                    <option value="Cotia">Cotia</option>
+                    <option value="Diadema">Diadema</option>
+                    <option value="Guarulhos">Guarulhos</option>
+                    <option value="Itaquaquecetuba">Itaquaquecetuba</option>
+                    <option value="Mauá">São Bernardo do Campo</option>
+                    <option value="Mogi das Cruzes">Mogi das Cruzes</option>
+                    <option value="Osasco">Osasco</option>
+                    <option value="Santo André">Santo André</option>
+                    <option value="São Bernardo do Campo">São Bernardo do Campo</option>
+                    <option value="São Caetano do Sul">São Caetano do Sul</option>
+                    <option value="Suzano">Suzano</option>
+                    <option value="Outra">Outra (especifique na mensagem)</option>
+              </select>
+            </p>
+        </fieldset>
+        <fieldset id="locacao">
+          <legend id="locacao">Informações sobre a locação</legend>
+              <p> <label for="clocal"> Local: </label>
+              <select name="tlocal" id="clocal">
+                    <option value="Shopping" selected>Shoppping</option>
+                    <option value="Eventos">Evento</option>
+                    <option value="Prédio Comercial">Prédio Comercial</option>
+                    <option value="Outros">Outros</option>
+              </select>
+            </p>
+              <p><label for="cnumber">Duração(meses): </label><input type="number" name="tnumber" id="cnumber" min=1 max="100" placeholder=" Meses"/> </p>
+              <p> <label for="carea"> Área a cobrir(m&sup2):</label><input type="number" name="tarea" id="carea" min="1" max="1000" placeholder=" Área"/> </p>
+        </fieldset>
+        <fieldset id="mensagem">
+          <legend id="legenda_mensagem">Mensagem</legend>
+             <p><label for="cmsg">Mensagem:<br/></label><textarea name="tmsg" id="cmsg" placeholder=" Escreva aqui sua mensagem" cols="30" rows="8"></textarea></p>
+        </fieldset>
+        <input class="enviar" type="image" src="_imagens/botao-enviar.png"/>
+      </form>
+    </article>
+
+    <aside>
+        <h3 id="titulo2">Serviço de Qualidade</h3>
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+        
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="list-unstyled row">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume1.jpg" data-src="_imagens/tapume1.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume1.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume2.jpg" data-src="_imagens/tapume2.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume2.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume3.jpg" data-src="_imagens/tapume3.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume3.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume4.jpg" data-src="_imagens/tapume4.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume4.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume5.jpg" data-src="_imagens/tapume5.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume5.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume6.jpg" data-src="_imagens/tapume6.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume6.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume7.jpg" data-src="_imagens/tapume7.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume7.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume8.jpg" data-src="_imagens/tapume8.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume8.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume9.jpg" data-src="_imagens/tapume9.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume9.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume10.jpg" data-src="_imagens/tapume10.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume10.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume11.jpg" data-src="_imagens/tapume11.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume11.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="_imagens/tapume12.jpg" data-src="_imagens/tapume12.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="_imagens/tapume12.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </aside>
+    <footer>
+
+      <p>Tel.: (11) 3832-5090<br/>
+      Fax: (11) 3832-9346<br/>
+      Email: <a class="footer-link" href="contato.html">adm@acerte.com</a><br/>
+      Email: <a class="footer-link" href="contato.html">comercial@acerte.com</a><br/>
+      <a class="footer-link" href="https://www.google.com.br/maps/place/R.+Quisambu,+18+-+Jaguare,+S%C3%A3o+Paulo+-+SP,+05330-020/data=!4m2!3m1!1s0x94ceff53ae0f0f9b:0x72cf10fa712aa98?sa=X&ved=0ahUKEwihupWK-fLMAhVCk5AKHZ-aCEkQ8gEIHDAA" target="_blank">Rua Quisambu, 18 </a>– Jaguaré – São Paulo - SP<br/></p>
+
+  </footer>
+  <footer class="footer-second">
+    <p>Copyright © 2016 <a class="footer-link" href="_index.html">Acerte Comércio</a> - Todos os direitos reservados
+    <br/>Design by Nikolas Athanasopoulos</p>
+  </footer>
+    </body>
+</html>

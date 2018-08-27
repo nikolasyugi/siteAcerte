@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h2{
+	text-align: left;
+	font-size:180%;
+	line-height: 120%;
+	padding:1%;	
+	margin-top: 85px;
+	color:#336799;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #dedede;
+
+}
+
+article#interface{
+	height:100%;
+	width:auto;
+	padding:0;
+}
+article#interface p{
+	color:black;
+	padding:10px;
+
+	margin-left:0px;
+}
+
+section#interface{
+	width:95%;
+	float:left;
+	margin:2% 2%;
+	text-align: center;
+	border-radius: 4px;
+	color:#8e8e8e;
+}

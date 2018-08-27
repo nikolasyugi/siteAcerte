@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Acerte Comércio - Entre em contato conosco </title>
+
+  <link rel="stylesheet" type="text/css"href="_css/blueberry.css">
+  <link rel="stylesheet" type="text/css"href="_css/style.css">
+  <link rel="stylesheet" type="text/css"href="_css/interface.css">
+  <link rel="stylesheet" type="text/css"href="_css/contato_tapumes.css">
+  <link rel="stylesheet" type="text/css" href="_css/bootstrap.min1.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="_javascript/jquery.blueberry.js"></script>
+  
+  <script>
+    $(window).load(function(){
+      $('.blueberry').blueberry();
+    })
+  </script>
+
+ </head>
+
+
+
+<body>
+  <header>
+    <a href="_index.html" id="Logo"></a>
+    <nav>
+      <a href="#" id="menu-icon"></a>
+      <ul>
+
+        <li><a href="_index.html">Home</a></li>
+        <li><a href="quemsomos.html">Quem somos</a></li>
+        <li> 
+          <div class="dropdown">
+             <a href="http://www.uolhost.uol.com.br/loja-virtual.html#rmcl" target="_blank">Compras</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mantas Térmicas</a></li>
+                <li><a href="#">Revestimentos</a></li>
+                <li><a href="#">Forros</a></li>
+                <li><a href="#">Fitas</a></li>
+                <li><a href="#">Fixação</a></li>
+                <li><a href="#">Foil</a></li>
+              </ul>
+          </div>
+        </li>
+        <li><a href="tapumes.html">Tapumes</a></li>
+        <li><a href="contato.html" class="current">Contato</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="clear"></div>
+
+    <h2>Contato</h2>
+	<article>
+	    <h3>Fale Conosco</h3>
+	    <form id="formulario" method="post" action="mailto:.com">
+
+      <fieldset id="usuario">
+        <legend id="usuario">Identificação</legend>
+            <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder=" Nome Completo"/> </p>
+            <p><label for="cmail">E-mail: </label><input type="email" name="tmail" id="cmail" size= "15" maxlength="30" placeholder=" E-mail"/> </p>
+            <p> <label for="cassunto"> Assunto: </label>
+            <select name="tassunto" id="cassunto">
+                  <option value="Assistencia" selected>Assistência</option>
+                  <option value="Manta">Manta Térmica</option>
+                  <option value="Tapumes">Tapumes</option>
+                  <option value="Divisorias">Divisórias</option>
+                  <option value="Parceria">Parceria</option>
+                  <option value="Sugestoes">Sugestões</option>
+                  <option value="Outros">Outros</option>
+            </select>
+          </p>  
+      </fieldset>
+      <fieldset id="mensagem">
+        <legend id="legenda_mensagem">Mensagem</legend>
+           <p><label for="cmsg">Mensagem:<br/></label><textarea name="tmsg" id="cmsg" placeholder=" Escreva aqui sua mensagem" cols="30" rows="8"></textarea></p>
+      </fieldset>
+      <input class="enviar" type="image" src="_imagens/botao-enviar.png"/>
+    </form>
+    
+	</article>
+	<aside>
+	    <h3 id="titulo2">Como Chegar?</h3>
+	   <div class="google-maps"><iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.693323766462!2d-46.7528366850225!3d-23.5435301846918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff53ae0f0f9b%3A0x72cf10fa712aa98!2sR.+Quisambu%2C+18+-+Jaguare%2C+S%C3%A3o+Paulo+-+SP%2C+05330-020!5e0!3m2!1sen!2sbr!4v1462801211396" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	</aside>
+
+
+  <footer>
+
+      <p>Tel.: (11) 3832-5090<br/>
+      Fax: (11) 3832-9346<br/>
+      Email: <a class="footer-link" href="#">adm@acerte.com</a><br/>
+      Email: <a class="footer-link" href="#">comercial@acerte.com</a><br/>
+      <a class="footer-link" href="https://www.google.com.br/maps/place/R.+Quisambu,+18+-+Jaguare,+S%C3%A3o+Paulo+-+SP,+05330-020/data=!4m2!3m1!1s0x94ceff53ae0f0f9b:0x72cf10fa712aa98?sa=X&ved=0ahUKEwihupWK-fLMAhVCk5AKHZ-aCEkQ8gEIHDAA" target="_blank">Rua Quisambu, 18 </a>– Jaguaré – São Paulo - SP<br/></p>
+
+  </footer>
+  <footer class="footer-second">
+    <p>Copyright © 2016 <a class="footer-link" href="_index.html">Acerte Comércio</a> - Todos os direitos reservados
+    <br/>Design by Nikolas Athanasopoulos</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+section{
+	width:45%;
+}
+
+h3{
+	text-align: left;
+	font-size:120%;
+	line-height: 120%;
+	padding:0%;
+	padding-left:1%;	
+	margin-top:
+	margin-bottom: 15px;
+	color:#336799;
+	font-weight: bold;
+	text-decoration: none;
+}
+h3#titulo2{
+	margin-top:17px;
+}
+form{
+	margin-left:-1.2%;
+}
+fieldset{
+	color: #000000;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	padding:5%;
+	margin:5%;
+	margin-left:-5%;
+}
+input{
+	height: 25px;
+    padding-left: 2px;
+    margin-left: 2px;
+}
+input.enviar{
+	height: 100%;
+	float:right;
+    margin-right: 25px;
+}
+fieldset legend{
+	text-decoration: underline;
+	font-weight: bold;
+}
+textarea{
+		width:80%;
+		margin-left:10%;
+}
+
+select{
+	width:110px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 90%; /*(450 ÷ 500 = 0.9 = 90%)*/
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+	margin:5%;
+}
+
+p{
+	color:black;
+}
+div.demo-gallery li img{
+	border-radius: 0px;
+}
+
+@media screen and (max-width:905px){
+	textarea{
+		width:80%;
+		margin-left:10%;
+	}
+}

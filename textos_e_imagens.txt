@@ -1,0 +1,23 @@
+HOME
+->4 imagens ou + para o menu que desliza tamanho 960x479, de preferência
+contendo texto na imagem já, fazendo propaganda das coisas
+->3 imagens para ficar embaixo do menu que desliza, um sobre
+a manta térmica, outro sobre tapumes outro sobre o premio top of quality
+tamanho 450x300 cada
+->1 texto pequeno (um pouco menos de 200 caracteres cada ~ 30
+palavras) para a caixa "Qualidade"
+
+QUEM SOMOS
+->1 Imagem do escritório da Acerte se possível, tamanho 650x400
+
+TAPUMES
+->Texto introdutório para a página
+->Pra qual email deverá ser enviado os orçamentos dos clientes?
+->Sugestões para melhorar o formulário de orçamento
+
+CONTATO
+->Pra qual email deverá ser enviado as perguntas dos clientes?
+->Sugestões de assuntos para a mensagem 
+
+FAQ
+->Elaborar algumas perguntas e respostas frequentes que os clientes têm
